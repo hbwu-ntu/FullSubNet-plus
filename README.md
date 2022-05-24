@@ -29,7 +29,7 @@ conda create --name speech_enhance python=3.6
 conda activate speech_enhance
 
 # Install conda packages
-# Check python=3.8, cudatoolkit=10.2, pytorch=1.7.1, torchaudio=0.7
+# Check python=3.6, cudatoolkit=10.2, pytorch=1.7.1, torchaudio=0.7
 conda install pytorch torchvision torchaudio cudatoolkit=10.2 -c pytorch
 conda install tensorboard joblib matplotlib
 
